@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.7.0/lib/p5.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.7.0/lib/addons/p5.sound.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="loading">
+            <div class="bar top"></div>
+            <div class="bar mid">
+                <div class="circle "></div>
+                <div class="circle "></div>
+                <div class="circle "></div>
+                <div class="circle "></div>
+                <div class="circle "></div>
+            </div>
+            <div class="bar bot"></div>
+        </div>
+        <div class="combo">
+            
+            <div class="displayYellow">
+                <div class="right arrow yReset"></div>
+
+                <p class="author yellow">YOASOBI</p>
+                <p class="songName glow nyellow">ラブレター</p>
+                <div class="button byellow" id="playYellow"> <p  class="glow yellow">PLAY</p></div>
+            </div>
+
+            <div class="displayBlue">
+                <div class="left arrow getYellow"></div>
+                <div class="right arrow getRed"></div>
+
+                <p class="author blue">Alan Walker</p>
+                <p class="songName glow nblue">ALL FALLS DOWN</p>
+                <div class="button bblue" id="playBlue"> <p  class="glow blue">PLAY</p></div>
+            </div>
+
+            <div class="displayRed">
+                <div class="left arrow rReset"></div>
+                
+                <p class="author red">Coldzy - tlinh - 2pillz</p>
+                <p class="songName glow  nred">IF YOU SAY SO</p>    
+                <div class="button bred" id="playRed"> <p  class="glow red">PLAY</p></div>
+            </div>
+            
+            <div id="visualizer1"></div>
+        </div>
+    </div>
+    <script src="loading.js"></script>
+    <script src="main.js"></script>
+
+
+</body> 
+</html>
