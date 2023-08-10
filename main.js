@@ -55,7 +55,7 @@ function preload() {
     audioBlue = loadSound("./assets/music/allFallsDown.m4a");
     imgBlue = loadImage("./assets/img/bg-blue-blur.jpg");
 
-    audioRed = loadSound("./assets/music/ifyouSaySo.m4a");
+    audioRed = loadSound("./assets/music/ifYouSaySo.m4a");
     imgRed = loadImage("./assets/img/bg-red-blur.png");
 
     audioYellow = loadSound("./assets/music/loveLetter.m4a");
